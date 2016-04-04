@@ -1,0 +1,221 @@
+/* General SPA layout*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+
+html,body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+ul {
+	list-style: none;
+	word-wrap: break-word;
+}
+
+
+/* Pages/Page layout */
+.pages {
+	height: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.page {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* Login Page layout */
+.login.page {
+	background: #000;
+}
+
+.login.page .form {
+	height: 100px;
+	margin-top: -100px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+}
+
+
+.login.page .form .userNameiput {
+	 background: transparent;
+	 border: none;
+	 border-bottom: 2px solid #fff;
+	 outline: none;
+	 padding-bottom: 15px;
+	 text-align: center;
+	 width: 400px;
+}
+
+
+.login.page .title {
+	font-size: 200%;
+	color: #fff;
+	font-weight: 100;
+}
+
+
+.login.page .userNameInput {
+	font-size: 200%;
+	letter-spacing: 3px;
+	color: #000;
+	font-weight: 100;
+}
+
+
+/* Chat page layout */
+
+.chat.page {
+	display: none;
+}
+
+
+/* Fonts */
+
+.messages {
+	font-size: 150%;
+}
+
+
+.inputMessages {
+	font-size: 100%;
+}
+
+
+.log {
+	color: #f0f0f0;
+	font-size: 70%;
+	margin: 5px;
+	text-align: center;
+}
+
+
+/* Messages */
+.chatArea {
+	height: 100%;
+	padding-bottom: 60px;
+}
+
+
+.messages {
+	height: 100%;
+	margin: 0;
+	overflow-y: scroll;
+	padding: 10px 20px 10px 20px;
+}
+
+
+.message.typing .messageBody {
+	color: #f0f0f0;
+}
+
+
+.userName {
+	float: left;
+	font-weight: 700;
+	overflow: hidden;
+	padding-right: 15px;
+	text-align: right;
+}
+
+
+/* Input */
+
+.inputMessage {
+	border: 10px solid #000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	width: 100%;
+	outline: none;
+	padding-left: 10px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+/* Message input form */
+
+/*.messageForm {
+	background: #000;
+	padding: 3px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.messageForm.input {
+	border: 0;
+	padding: 10px;
+	width: 90%;
+	margin-right: .5%;
+}
+
+
+.messageForm.button {
+	width: 9%;
+	background: #00f0ff;
+	border: none;
+	padding: 10px;
+}
+
+*/
+/* Chat messages diplay area */
+
+/*.chatArea {
+	height: 100%;
+	padding-bottom: 60px;
+}
+
+.messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.messages.li {
+	padding: 5px 10px;
+}
+
+
+.messages.li:nth-child(odd) {
+	background: #eee;
+}*/
